@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fale conosco</title>
+<!-- <link rel="stylesheet" href="style.css">  -->
+</head>
+<body>
+
+	<h2>Fale conosco</h2>
+	<form action="/sucesso" method="POST">
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" id="nome" placeholder="Nome">
+		
+		<label for="telefone">Telefone:</label>
+		<input type="text" name="telefone" id="telefone" placeholder="Telefone">
+		
+		<label for="email">E-mail:</label>
+		<input type="email" name="email" id="email" placeholder="E-mail">
+		
+		<label for="cidade">Cidade</label>
+		<input type="text" name="cidade" id="cidade" placeholder="Cidade">
+		
+		<label for="genero">Gênero</label>
+		<input type="text" name="genero" id="genero" placeholder="Gênero">
+		
+		<span>Deseja receber novidades?</span>
+		<input type="radio" name="novidades" value="true" id="sim">
+		<label for="sim">Sim</label>
+		<input type="radio" name="novidades" value="false" id="nao">
+		<label for="nao">Não</label>
+		
+		<label for="texto">Escreva sua mensagem</label>
+		<textarea cols="50" rows="10" name="texto" id="texto"></textarea>
+		
+		<input type="submit" value="Enviar">
+	</form>
+
+</body>
+</html>
